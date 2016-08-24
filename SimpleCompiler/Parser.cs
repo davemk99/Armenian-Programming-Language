@@ -131,6 +131,10 @@ namespace ArmenianProgrammingLanguage
                     {
                         Console.WriteLine(string.Format(CultureInfo.InvariantCulture,item.ToString()));
                     }
+                    if (res.Errors.Count == 0)
+                    {
+                        Console.WriteLine("Successful compilaton");
+                    }
                 }
             }
         } 

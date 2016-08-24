@@ -11,14 +11,24 @@ namespace ArmenianProgrammingLanguage
     {
         static void Main(string[] args)
         {
-            LexicalAnalyzer lexer = new LexicalAnalyzer(File.ReadAllText(args[0]));
-            lexer.Analyze();
-            Parser parser = new Parser(lexer,args[1],args[2]);
-            parser.Parse();
-            parser.Compile();
-            
-         
-            Console.Read();
+            if (args.Length < 3)
+            {
+
+
+                LexicalAnalyzer lexer = new LexicalAnalyzer(File.ReadAllText(args[0]));
+                lexer.Analyze();
+                Parser parser = new Parser(lexer, args[1], args[2]);
+                parser.Parse();
+                parser.Compile();
+
+
+                Console.Read();
+            }
+            else
+            {
+                Console.WriteLine("You will run executable with parameters FileName OutputFolder and OutputExecutable seperated with space");
+                Console.ReadLine();
+            }
         }
     }
 }
