@@ -1,0 +1,16 @@
+﻿using System;
+using System.IO;
+using System.Text;
+namespace SimpleCompiler
+{
+    class template
+    {
+        public static void Main(string[] args)
+        {
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
+            insert it here
+			
+        }
+    }
+}
