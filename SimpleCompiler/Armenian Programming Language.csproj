@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
-    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,13 +51,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SimpleCompiler.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>ArmenianProgrammingLanguage.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.JScript" />
@@ -71,7 +71,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Lexer.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Program.cs" />
@@ -82,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="SimpleCompiler.snk" />
+    <None Include="ArmenianProgrammingLanguage.snk" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

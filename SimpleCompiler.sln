@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCompiler", "SimpleCompiler\SimpleCompiler.csproj", "{299233EA-782A-42C0-A96F-0B4377C85E5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armenian Programming Language", "SimpleCompiler\Armenian Programming Language.csproj", "{299233EA-782A-42C0-A96F-0B4377C85E5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
